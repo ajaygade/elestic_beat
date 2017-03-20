@@ -1,0 +1,30 @@
+tch_phrase" : {
+            "about" : "rock climbing"
+        }
+    }
+}
+
+Copy as cURLView in Sense 
+
+This, to no surprise, returns only John Smith’s document:
+
+{
+   ...
+   "hits": {
+      "total":      1,
+      "max_score":  0.23013961,
+      "hits": [
+         {
+            ...
+            "_score":         0.23013961,
+            "_source": {
+               "first_name":  "John",
+               "last_name":   "Smith",
+               "age":         25,
+               "about":       "I love to go rock climbing",
+               "interests": [ "sports", "music" ]
+            }
+         }
+      ]
+   }
+}
