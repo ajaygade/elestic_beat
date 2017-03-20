@@ -1,0 +1,17 @@
+
+GET /megacorp/employee/_search
+{
+    "query": {
+            "must" : {
+                "match" : {
+                    "last_name" : "smith" 
+                }
+            },
+            "filter" : {
+                "range" : {
+                    "age" : { "gt" : 30 } 
+                }
+            }
+        }
+    }
+}
