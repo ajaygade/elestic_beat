@@ -1,0 +1,54 @@
+
+ok":      6,
+   "timed_out": false,
+   "_shards": { ... },
+   "hits": {
+      "total":      3,
+      "max_score":  1,
+      "hits": [
+         {
+            "_index":         "megacorp",
+            "_type":          "employee",
+            "_id":            "3",
+            "_score":         1,
+            "_source": {
+               "first_name":  "Douglas",
+               "last_name":   "Fir",
+               "age":         35,
+               "about":       "I like to build cabinets",
+               "interests": [ "forestry" ]
+            }
+         },
+         {
+            "_index":         "megacorp",
+            "_type":          "employee",
+            "_id":            "1",
+            "_score":         1,
+            "_source": {
+               "first_name":  "John",
+               "last_name":   "Smith",
+               "age":         25,
+               "about":       "I love to go rock climbing",
+               "interests": [ "sports", "music" ]
+            }
+         },
+         {
+            "_index":         "megacorp",
+            "_type":          "employee",
+            "_id":            "2",
+            "_score":         1,
+            "_source": {
+               "first_name":  "Jane",
+               "last_name":   "Smith",
+               "age":         32,
+               "about":       "I like to collect rock albums",
+               "interests": [ "music" ]
+            }
+         }
+      ]
+   }
+}
+
+Note
+
+
