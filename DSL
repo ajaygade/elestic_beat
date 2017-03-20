@@ -1,0 +1,10 @@
+n-specific language (DSL
+
+GET /megacorp/employee/_search
+{
+    "query" : {
+        "match" : {
+            "last_name" : "Smith"
+        }
+    }
+}
